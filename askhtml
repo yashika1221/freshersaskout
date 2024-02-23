@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresher's askout invite</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: #f4e0f4;
+            margin: 20px;
+        }
+        #invitation {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff5e78;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff5e78;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #d94155;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="invitation">
+        <h1>Colours Freshers' Party</h1>
+        <p>🌟 Dear Rahul Sir, 🌟</p>
+        <p>✨ With great joy and anticipation, I extend to you a heartfelt invitation accompany me to the Colours Freshers' Party. Your presence would undoubtedly make it extra special. ✨</p>
+        <p>🌈 Picture us dancing under the soft glow of lights, surrounded by the laughter of friends and the promise of a night to remember. Will you be my enchanting freshers' date? 🌈</p>
+        
+        <button onclick="confirmResponse('Yes')">Absolutely, I'd love to!</button>
+        <button onclick="confirmResponse('No')">Regrettably, I can't make it.</button>
+    </div>
+
+    <script>
+        function confirmResponse(response) {
+            alert("You clicked: " + response);
+        }
+    </script>
+
+</body>
+</html>
